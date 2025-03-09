@@ -1,10 +1,10 @@
 # JDBC & Log4j Practice Project
 
-## 개요
+## ✨ 개요
 
 이 프로젝트는 **JDBC**와 **Log4j**를 활용하여 **데이터베이스 연동 및 로깅 기능을 연습**하는 콘솔 기반 애플리케이션입니다. Oracle DB와 연결하여 SQL 쿼리를 실행하며, Log4j를 사용해 디버깅과 오류 로깅을 관리합니다.
 
-## 사용 기술
+## ✨ 사용 기술
 
 - **Java (JDK 8 이상)**: 프로젝트의 기본 언어
 - **JDBC**: 데이터베이스 연결 및 SQL 실행
@@ -14,7 +14,7 @@
 - **Properties 파일 관리**: `db.properties`, `log4j.properties` 활용
 - **싱글톤 패턴**: DB 연결 관리(`DBUtil.java`)
 
-## 프로젝트 구조
+## ✨ 프로젝트 구조
 
 ```
 src/
@@ -35,7 +35,7 @@ resources/
 ├── log4j.properties  // 로그 설정 파일
 ```
 
-## 주요 기능
+## ✨ 주요 기능
 
 1. **JDBC 연습**
     - Oracle DB와 연결 및 SQL 실행
@@ -47,7 +47,7 @@ resources/
     - `INFO`, `DEBUG`, `ERROR` 레벨별 로그 관리
     - `DBUtil.java`에 로그 적용하여 DB 연결 상태 로깅
 
-## 실행 방법
+## ✨ 실행 방법
 
 1. **데이터베이스 설정**
     - `db.properties` 파일에서 Oracle DB 접속 정보를 설정
@@ -59,7 +59,7 @@ resources/
     java -cp bin basic.jdbcStudy.jdbcStudy01
     ```
     
-## 데이터베이스 테이블 (예제)
+## ✨ 데이터베이스 테이블
 
 ```sql
 CREATE TABLE LPROD (
